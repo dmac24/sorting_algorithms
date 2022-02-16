@@ -14,6 +14,7 @@ void selection_sort(int *array, size_t size)
 
 	for (i = 1; i < size; i++)
 	{
+		swap = 0;
 		smallest = i - 1;
 
 		for (j = i; j < size; j++)
