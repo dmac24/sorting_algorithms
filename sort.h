@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
+
 
 /**
  * struct listint_s - Doubly linked list node
@@ -28,5 +30,10 @@ void cg(int *a, int *b);
 void insertion_sort_list(listint_t **list);
 
 void selection_sort(int *array, size_t size);
+
+void quick_sort(int *array, size_t size);
+void sorts(int *array, int low, int high, size_t size);
+int part(int *array, int low, int high, size_t size);
+void swap(int *array, int i, int j);
 
 #endif
