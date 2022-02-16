@@ -36,4 +36,6 @@ void sorts(int *array, int low, int high, size_t size);
 int part(int *array, int low, int high, size_t size);
 void swap(int *array, int i, int j);
 
+void shell_sort(int *array, size_t size);
+
 #endif
